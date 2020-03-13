@@ -21,6 +21,7 @@ public class Answers {
         createAnswers.put(7, "Yup".split(" "));
         createAnswers.put(8, "Hell Yeeeeaaaaahhhhh".split(" "));
         createAnswers.put(9, "Yup yup yup".split(" "));
+        createAnswers.put(10, "Only if Ruby says yes".split(" "));
         return createAnswers;
     }
 
