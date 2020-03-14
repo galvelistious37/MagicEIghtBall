@@ -8,6 +8,7 @@ public class Main {
     public static void main(String[] args) {
 	// write your code here
         play();
+        // Thought this shit was deleted?
     }
 
     private static void play() {
