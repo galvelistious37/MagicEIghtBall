@@ -11,7 +11,7 @@ public class Main {
         // Thought this shit was deleted?
     }
 
-    private static void play() {
+    static void play() {
         Scanner scanner = new Scanner(System.in);
         boolean quit = false;
         while(!quit){

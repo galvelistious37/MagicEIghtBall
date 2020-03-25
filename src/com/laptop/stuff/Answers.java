@@ -10,11 +10,11 @@ public class Answers {
         this.eightBallAnswers = buildEightBallAnswers();
     }
 
-    private Map<Integer, String[]> buildEightBallAnswers(){
+    Map<Integer, String[]> buildEightBallAnswers(){
         Map<Integer, String[]> createAnswers = new HashMap<Integer, String[]>();
         createAnswers.putAll(populateShittyAnswers());
         createAnswers.putAll(populateNeutralAnswers());
-        createAnswers.putAll(populateGoodAnswes());
+        createAnswers.putAll(populateGoodAnswers());
         return createAnswers;
     }
 
@@ -22,7 +22,7 @@ public class Answers {
         return eightBallAnswers;
     }
 
-    private Map<Integer, String[]> populateShittyAnswers(){
+    Map<Integer, String[]> populateShittyAnswers(){
         Map<Integer, String[]> createAnswers = new HashMap<Integer, String[]>();
         createAnswers.put(1, "Hell Nah".split(" "));
         createAnswers.put(2, "Nope, don't even plan on it".split(" "));
@@ -30,7 +30,7 @@ public class Answers {
         return createAnswers;
     }
 
-    private Map<Integer, String[]> populateNeutralAnswers(){
+    Map<Integer, String[]> populateNeutralAnswers(){
         Map<Integer, String[]> createAnswers = new HashMap<Integer, String[]>();
         createAnswers.put(4, "Eh... Maybe".split(" "));
         createAnswers.put(5, "Ask me when I'm not drunk".split(" "));
@@ -38,7 +38,7 @@ public class Answers {
         return createAnswers;
     }
 
-    private Map<Integer, String[]> populateGoodAnswes(){
+    Map<Integer, String[]> populateGoodAnswers(){
         Map<Integer, String[]> createAnswers = new HashMap<Integer, String[]>();
         createAnswers.put(7, "Yup".split(" "));
         createAnswers.put(8, "Hell Yeeeeaaaaahhhhh".split(" "));
